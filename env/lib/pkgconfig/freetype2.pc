@@ -1,0 +1,14 @@
+prefix=/Users/emilyschlicter/personal-apps/ml-course/sample_project/env
+exec_prefix=/Users/emilyschlicter/personal-apps/ml-course/sample_project/env
+libdir=/Users/emilyschlicter/personal-apps/ml-course/sample_project/env/lib
+includedir=/Users/emilyschlicter/personal-apps/ml-course/sample_project/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 22.1.16
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2
